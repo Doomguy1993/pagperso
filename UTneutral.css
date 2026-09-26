@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Determination", cursive;
+}
+
+body{
+    /* border: solid rgb(255, 255, 255); */
+    background-color: black;
+}
+.uttitle{
+    
+    padding: 1.3%;
+    width: 45%;
+}
+.fan{
+    padding: 0;
+    width: 22%;
+}
+
+/* DISEÑO NAVEGACION */
+
+nav{
+    text-align: center;
+    border: 5px solid white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: rgb(255, 0, 0);
+}
+
+nav ul{
+    list-style: none;/*quitar estilo*/
+    display: inline-block;/*pantalla:bloqueo de linea*/
+    padding: 10px;
+
+}
+nav ul li{
+
+    float: left;
+    display: block;
+}
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* TIPO DE LETRA */
+
+@font-face {
+    font-family: Determination;
+    src: url("fonts/determination.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Determination;
+    font-weight: bold;
+    src: url("fonts/determination.otf") format("opentype");
+}
+
+ul {
+    font-family: "Determination", cursive;
+    font-size: 150%;
+    color: white;
+}
+.spoiler{
+    color: rgb(251, 255, 0);
+    font-family: "Determination", cursive;
+    padding: 5px;
+}
+.welcome{
+    text-align: center;
+    color: white;
+}
+header{
+
+ 
+    background-image: url(img/ruins_scroll.png);
+    background-repeat: repeat-x;
+    background-position: 1px -1px;
+    background-size: cover;
+    text-align: center;
+
+    animation: moverCiudad 20s linear infinite;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ruins_scroll.png);
+    background-size: cover;
+    background-position: 1px -1px;
+    background-repeat: no-repeat;
+    text-align: center; */
+    /* border: solid white; */
+}
+
+@keyframes moverCiudad {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -1920px;
+    }
+}
+
+.neutral{
+    font-size: 20px;
+    margin: 5px;
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+}
+
+.imgneu{
+ margin-top: 21px;
+ height: auto;
+    
+ width: 100%;
+ text-align: center;
+
+ float: center;
+    
+}
+.titulo{
+    color: yellow;
+}
+
+.resalta{
+    color: red;
+}
+.mi-gif {
+ margin-top: 21px;
+ height: auto;
+ padding-left: 70px;
+ 
+ text-align: center;
+
+ float: center;
+    
+}
+.fight{
+ margin-top: 21px;
+ height: auto;
+ width: 666px;
+ float: right;
+
+
+}
+.neutral2{
+    font-size: 20px;
+    margin-left: auto;
+    float: right;
+    width: 80%;
+    padding-right: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: right;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 700px;
+    min-height: 250px;
+    margin-left: auto;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.asgore{
+    margin-top: 90px;
+    padding-left: 11px;
+}
+.floweytaunt{
+    margin-top: 90px;
+    padding-left: 40px;
+}
+.flowey{
+    margin-top: 90px;
+    padding-left: 11px;
+}
